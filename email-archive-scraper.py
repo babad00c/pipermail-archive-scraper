@@ -44,6 +44,7 @@ class Message(dict):
             body=body
         )
 
+#TODO: translate the below to xpath and remove bs4 import
 async def read_message(url) -> Message:
 
     try:
